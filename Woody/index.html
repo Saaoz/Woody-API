@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/helpers.css">
+
+    <title>Woody</title>
+</head>
+<body>
+
+    <header>
+        <div class="site-name">
+            Woody
+        </div>
+    </header>
+
+    <section class="container">
+
+
+        <article class="left-container">
+            <!-- options here -->
+            <ul>
+                <li class="home">Home</li>
+                <li class="explore">Explore</li>
+                <li class="notif">Notifications</li>
+                <li class="msg">Messages</li>
+                <li  class="profil">Profile</li>
+                <li class="more">More</li>
+            </ul>
+        </article>
+        <article class="center-container">
+            <!-- create text with tag here -->
+            <div class="create-comment">
+				<h2>Create Your Comment</h2>
+				<form>
+                    <input type="text" type="text" id="name" name="name" minlength="3" maxlength="16" required placeholder="Enter your tag">
+					<textarea rows="4" id="message" name="message" minlength="3" maxlength="256" required placeholder="Don't be afraid Boi say what you think"></textarea>
+					<button type="submit">Post</button>
+				</form>
+			</div>
+
+            <!-- tweet text and feed here -->
+            <div id="tweet-container">
+                
+                
+        </article>
+
+
+        <article class="right-container">
+            <!-- popular search and search bar here -->
+            <h3>Popular</h3>
+            <ul id="popular-list"></ul>
+            <form>
+                <input type="text" placeholder="Search">
+            </form>
+        </article>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
